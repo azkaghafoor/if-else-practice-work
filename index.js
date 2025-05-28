@@ -62,19 +62,19 @@ if (rating > 3) {
   console.log("Bad rating");
 }
 // Example 10
-let batteryLevel = 80;
-if (batteryLevel > 60) {
-  console.log("Your battery level is good");
-} else {
-  console.log("Your battery level is not good");
-}
+// let batteryLevel = 80;
+// if (batteryLevel > 60) {
+//   console.log("Your battery level is good");
+// } else {
+//   console.log("Your battery level is not good");
+// }
 // Example 11
-let internetConnection = "connected";
-if (internetConnection === "connected") {
-  console.log("You are online");
-} else {
-  console.log("You are offline");
-}
+// let internetConnection = "connected";
+// if (internetConnection === "connected") {
+//   console.log("You are online");
+// } else {
+//   console.log("You are offline");
+// }
 // Example 12
 let weather = "rainy";
 if (weather === "rainy") {
@@ -102,4 +102,60 @@ if (fruit === "mango") {
   console.log("I like fruit");
 } else {
   console.log("i don't like fruit");
+}
+// repeat if else using
+// Example 1:
+let subscriptionPlan = "premium";
+if (subscriptionPlan === "free") {
+  console.log("You have a free subscription.");
+} else if (subscriptionPlan === "basic") {
+  console.log("You have a basic subscription.");
+} else if (subscriptionPlan === "premium") {
+  console.log("You have a premium subscription.");
+} else {
+  console.log("Invalid subscription plan.");
+}
+// Example 2:
+let batteryLevel = 50;
+if (batteryLevel > 80) {
+  console.log("Battery level is high.");
+} else if (batteryLevel > 30) {
+  console.log("Battery level is medium.");
+} else if (batteryLevel > 10) {
+  console.log("Battery level is low.");
+} else {
+  console.log("Invalid battery level.");
+}
+// Example 3:
+let internetConnection = "connected";
+if (internetConnection === "connected") {
+  console.log("You are online.");
+} else if (internetConnection === "disconnected") {
+  console.log("You are offline.");
+} else {
+  console.log("Invalid internet connection status.");
+}
+// Example 4:
+let paymentMethod = "credit card";
+if (paymentMethod === "credit card") {
+  console.log("Payment made using credit card.");
+} else if (paymentMethod === "debit card") {
+  console.log("Payment made using debit card.");
+} else if (paymentMethod === "bank transfer") {
+  console.log("Payment made using bank transfer.");
+} else {
+  console.log("Invalid payment method.");
+}
+// Example 5:
+let movieGenre = "action";
+if (movieGenre === "action") {
+  console.log("You like action movies.");
+} else if (movieGenre === "comedy") {
+  console.log("You like comedy movies.");
+} else if (movieGenre === "drama") {
+  console.log("You like drama movies.");
+} else if (movieGenre === "horror") {
+  console.log("You like horror movies.");
+} else {
+  console.log("Unknown movie genre.");
 }
